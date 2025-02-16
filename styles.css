@@ -40,6 +40,20 @@ header {
   z-index: 100;
 }
 
+.myprojects{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 9%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+
+}
+
 .logo, .btn {
   font-size: 3rem;
   color: orangered;
@@ -53,6 +67,20 @@ header {
   transform: scale(1.1);
 }
 
+.happymotherlanguageday{
+  font-size: 3rem;
+  color: orangered;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  font-family: "Jersey 10", sans-serif !important;
+}
+
+.happymotherlanguageday:hover {
+  transform: scale(1.1);
+}
+
+
 nav a {
   font-size: 1.8rem;
   color: aliceblue;
@@ -64,7 +92,7 @@ nav a {
 
 nav a:hover,
 nav a.active {
-  color: orangered;
+  color: rgb(89, 30, 8);
   border-bottom: 3px solid orangered;
 }
 
@@ -146,7 +174,7 @@ span {
   background-color: #000;
 }
 
-.services h1, .skills h1, .education h1, .experience h1, .contact h1 {
+.services h1, .skills h1, .education h1, .experience h1, .contact h1, .myprojects h1{
   font-size: 4rem;
   margin-bottom: 3rem;
   color: orangered;
